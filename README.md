@@ -12,15 +12,15 @@ A repository to store all the course content files for **'Web Development Lab 1 
 
 ## What We Learn
 
-This class is about learning to create Web APIs using C# programming language. It also covers several topics involved in object oriented programming.[^1]
+In this class, we are taught about the concepts of MySQL database to be able to write database query scripts and also to figure out the ways to connect data between multiple tables.[^1]
 
-![The Rock](./_readme/csharpImg.jpg)
+![The Rock](./_readme/mysql.jpg)
 
-_A programming meme taken from the cartoon show "Spongebob Squarepants"_
+_A programming meme for MySQL"_
 
-> :memo: **Note:** This class is a little difficult but Christine is super helpful and goes through every details.
+> :memo: **Note:** This class is very important as we are dealing with the data storing component of the web.
 
-[^note]: This class takes place online every Tuesday from 3:20 PM - 6:00 PM.
+[^note]: This class takes place online every Tuesday from 11:40 AM - 2:20 PM.
 
 ---
 
@@ -31,34 +31,18 @@ _A programming meme taken from the cartoon show "Spongebob Squarepants"_
 
 ## Code Sample - C#
 
-```csharp
-public string SpecialDay(int month, int day)
-        {
-            // variable to store the output
-            String output;
-            
-            // checking if the provided date is Feb 18
-            else if (month == 2 && day == 18)
-            {
-                // output for the special date
-                output = "Special";
-            }
-            // else statement for the dates after Feb 18
-            else
-            {
-                // output for the date after
-                output = "After";
-            }
-            // returning the variable with the result text
-            return output;
-        }
+```sql
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+ORDER BY Customers.CustomerName;
 ```
 
-- Creating a project in Visual Code
-- Controllers
-- Methods and HTTP requests
-- Routes and wildcards
-- Conditional statements / Loops
-- Views
+- SQL scripts
+- Operators
+- Aggregate functions and Groups
+- Joins and aliases
+- Pks and FKs
+- Database design practice
 
 [^1]: We have learned the above topics by now:
