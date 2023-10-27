@@ -25,7 +25,7 @@ _A programming meme for MySQL"_
 ---
 
 ## Learning Resource
-([W3School](https://www.w3schools.com/mysql/))
+[W3School](https://www.w3schools.com/mysql/)
 
 ---
 
